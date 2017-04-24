@@ -1,0 +1,430 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+@import "fonts/stylesheet.css";
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-family: 'proxima_nova_rgregular';
+    background: #66CCFF;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.wrapper-2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-nav {
+  text-align: center;
+}
+
+.main-nav-list {
+  list-style: none;
+}
+
+.main-nav-list-item {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0 15px;
+}
+
+.title {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.main-nav-list:first-child {
+  padding-left: 0;
+}
+
+.main-nav-list-item a {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.phone {
+  background-image: url("../img/phone.png");
+  width: 250px;
+  height: 503px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  background-size: 100%;
+}
+
+.phone video {
+  width: 219px;
+  height: 388px;
+  position: absolute;
+  left: 15px;
+  top: 58px;
+}
+
+.title-text {
+  color: white;
+  font-size: 24px;
+  text-align: left;
+  line-height: 35px;
+  padding-left: 30px;
+  padding-top: 30px;
+  letter-spacing: 1.5px;
+  font-family: 'proxima_nova_ththin';
+}
+
+.appstore-badge {
+  float: left;
+  margin-top: 15px;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-container a {
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'proxima_nova_ththin';
+  text-decoration: none;
+  padding: 30px 15px;
+  display: inline-block;
+}
+
+.page {
+  color: white;
+}
+
+.page h1 {
+  font-family: 'proxima_nova_rgregular';
+  letter-spacing: 1px;
+}
+
+.page h2 {
+  letter-spacing: 1px;
+}
+
+.page p {
+  font-family: 'proxima_nova_ththin';
+}
+
+.page.contact {
+  text-align: center;
+}
+
+.email-btn {
+  font-family: 'proxima_nova_ltsemibold';
+  text-decoration: none;
+  background: white;
+  padding: 12px 60px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 30px 0;
+  display: inline-block;
+  color: #66CCFF;
+  border-radius: 50px;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+   .main-nav-list-item a {
+     color: white;
+     font-size: 10px;
+     letter-spacing: 2px;
+     text-decoration: none;
+   }
+
+   .phone {
+     margin: auto;
+     float: none;
+   }
+
+   .wrapper-2 {
+     width: 90%
+   }
+
+   .title-text {
+     text-align: center;
+     padding: 0 15px;
+     margin: 40px 0;
+     font-size: 22px;
+   }
+
+   .appstore-badge {
+     float: none;
+     margin-bottom: 25px;
+   }
+
+   .title {
+     margin-bottom: 40px;
+   }
+
+   .title img {
+     width: 65px;
+   }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+
+
+/* ============
+    WIDE: Main
+   ============ */
+
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
