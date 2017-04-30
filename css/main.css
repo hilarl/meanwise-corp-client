@@ -91,7 +91,7 @@ body {
 }
 
 .main-nav-list-item.invite {
-  background: #651FFF;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   border-radius: 5px;
 }
 
@@ -436,4 +436,85 @@ body {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/*Slideer*/
+
+.closebt:hover {
+  transform: rotate(90deg);
+}
+.closebt {
+  transition: all 0.2s;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+#btn-close-modal {
+  text-align: center;
+  padding: 30px;
+}
+
+.modal-content {
+  text-align: center;
+  position: relative;
+  transform: translateY(-25%);
+  top: 25%;
+
+}
+.modal-content h1 {
+  color: white;
+  font-family: 'Avenir Next';
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 60px;
+}
+
+#modal-02 {
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+#emailAdd {
+  width: 80%;
+  text-align: center;
+  background: none;
+  font-size: 24px;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-weight: 100;
+  padding: 10px 0;
+}
+#SubscribeEmail {
+  border: none;
+  background: none;
+  color: white;
+  font-family: 'Avenir Next';
+  font-weight: 900;
+  font-size: 24px;
+  outline: none;
+  cursor: pointer;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background: none!important;
+}
+
+.err {
+  margin: 15px;
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-content h1 {
+    font-size: 48px;
+  }
+  #SubsribeForm1 input {
+    width: 35%;
+    font-size: 32px;
+  }
 }
