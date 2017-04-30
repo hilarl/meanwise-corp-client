@@ -4,6 +4,7 @@ jQuery(document).ready(function($){
             modalTarget:'modal-02',
             animatedIn:'fadeInUpBig',
             animatedOut:'fadeOutDownBig',
+            color:'#651FFF',
             // Callbacks
             beforeOpen: function() {
                     console.log("The animation was called");

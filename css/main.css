@@ -62,7 +62,7 @@ textarea {
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
     font-family: 'proxima_nova_rgregular';
-    background: #66CCFF;
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
 }
 
 .wrapper {
@@ -486,7 +486,9 @@ body {
   color: white;
   font-weight: 100;
   padding: 10px 0;
+  outline: none;
 }
+
 #SubscribeEmail {
   border: none;
   background: none;
@@ -497,8 +499,14 @@ body {
   outline: none;
   cursor: pointer;
 }
-input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
-  background: none!important;
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    background-color: transparent;
+    -webkit-text-fill-color: white;
 }
 
 .err {
@@ -517,4 +525,48 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     width: 35%;
     font-size: 32px;
   }
+  #demo02 {
+    font-size: 16px;
+    left: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #SubscribeEmail {
+    font-weight: 600;
+  }
+
+  .modal-content h1 {
+    font-weight: 600;
+  }
+}
+
+/*Placeholder*/
+
+#emailAdd::-webkit-input-placeholder {
+  font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+}
+
+#emailAdd:-ms-input-placeholder {
+  font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+}
+
+#emailAdd:-moz-placeholder {
+  font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+}
+
+#emailAdd::-moz-placeholder {
+  font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
 }
